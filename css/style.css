@@ -71,7 +71,7 @@ li+li { border-right: 1px solid #000000 }
     /* background-color: #333; 
   } */
   
-  li {
+  li[class="pure-menu-item"] {
     float: right;
     border: 1 solid #333;
     /* text-align:right;
@@ -87,15 +87,16 @@ li+li { border-right: 1px solid #000000 }
   }
   
   li a:hover {
-    background-color: #099bda;
+    background-color: #FF5733;
     margin: 0 .1em;
     text-align:center;
   }
   
   .active {
-    background-color: #342561;
-    color: #fff;
-    margin: 0 .1em ;
+    display: inline-block;
+    font-weight: bolder;
+    color: #FF5733;
+    margin: 0 .1em;
   } 
 
 
